@@ -10,11 +10,11 @@ def main(command):
 
     # Connect
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.connect(("8kermitcraft8.my.pebble.host", 8051))
+    sock.connect(("HOSTNAME", RCON PORT))
 
     try:
         # Log in
-        result = mcrcon.login(sock, "D1sc0rdB0tlol")
+        result = mcrcon.login(sock, "RCON PASSWORD")
         if not result:
             print("Incorrect rcon password")
             return
@@ -74,7 +74,7 @@ async def help(ctx):
 
     await ctx.channel.send(embed=embed)
 
-client.run("Njk5OTA3MTkxOTg0ODgxNjc2.XpbNgQ.Xs3gHPs4hMnj18aT13QfpB3oujo")
+client.run("DISCORD BOT TOKEN")
 
 
 
