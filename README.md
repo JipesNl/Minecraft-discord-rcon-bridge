@@ -1,9 +1,8 @@
-# MCRcon
-
-Straightforward implementation of Minecraft's
-[Rcon protocol](http://wiki.vg/Rcon) in Python.
-
-* `mcrcon.py` is a module you can import from your own python code to send
-  commands to a minecraft server and read responses.
-* `demo.py` is a simple command-line client that lets you do the above without
-  writing any code.
+This python program was made for a small server with friends. It uses barneygale's mcrcon python module to connect to a minecraft server, and then uses the discord module to connect to discord.
+Current features:
+- Whitelisting from discord
+- Clearing the discord channel
+- Pinging the bot
+- Custom help command in discord
+- Hidden command :-)
+As i forked this from barneygale, feel free to use my changes.
